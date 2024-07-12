@@ -1,0 +1,118 @@
+body {
+    color:rgb(28, 165, 165);
+    background:rgb(255, 255, 255);
+}
+h1, h2, h3, p, h5, h4 {
+    text-align: center;
+    color: rgb(28,165,165);
+}
+#GM, #start, #UD, #MK, #RK {
+    color: rgb(28,165,165);
+}
+i, b{
+    color: rgb(28,165,165);
+}
+div{
+    text-align: center;
+}
+img{
+    float:left
+}
+h5{
+    text-align: center;
+}
+h7{
+    float: right;
+}
+.button{
+    text-align: center;
+}
+/*меню*/
+header
+{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    bottom: 97vh; 
+    animation: slideout 3s;
+    color: white;
+    left:0;
+}
+
+nav
+{
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(28, 165, 165);
+}
+div
+{
+    display: inline-block;
+    height: 3vh;
+    text-align: center;
+    margin: -2px;
+    padding: 0;
+    vertical-align: top;
+}
+.menu
+{
+    display: inline-block;
+    margin: 1vw;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+    height: 3vh;
+    width: 17vw;
+    text-align: center;
+}
+.left
+{
+    width:3vh;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0) 50%, rgb(28, 165, 165) 50% );
+}
+.middle
+{
+    background-color: rgb(28, 165, 165);
+    width:10vw;
+}
+.right
+{
+    width:3vh;
+    background-image: linear-gradient(-45deg, rgba(0,0,0,0) 50%, rgb(28, 165, 165) 50% );
+}
+header:hover
+{
+    animation: slidein 3s;
+    bottom: 92vh;
+}
+@keyframes slidein 
+{
+    from
+    {
+        bottom: 97vh;
+    }
+    to
+    {
+        bottom: 92vh;
+    }  
+}
+@keyframes slideout 
+{
+    from
+    {
+        bottom: 92vh;
+    }
+    to
+    {
+        bottom:97vh;
+    }    
+}
+.button
+{
+    width:100vw;
+text-align: center; 
+}  
+
+  
+  
